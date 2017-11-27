@@ -1,18 +1,20 @@
-$showcase-overlay:rgba(64,118,186,0.50);
+@import 'variables';
+@import 'card.scss';
+
 
 body{
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Roboto Slab', serif;
+	font-family: $font-family-primary;
 	margin-top: 180px;
 }
 
 /*Fonts*/
 h1, h2, h3, h4, h5{
-	font-family: 'Roboto', sans-serif;
+	font-family: $font-family-primary;
 }
 
 p,a,ul,li {
-	font-family:'Roboto Slab', serif;
+	font-family:$font-family-secondary;
+	color:$color-text;
 }
 .navbar {
 	background: white;
@@ -39,3 +41,5 @@ p,a,ul,li {
 		margin-left:auto;
 	}
 }
+
+//Section Styles//
