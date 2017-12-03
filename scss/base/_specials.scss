@@ -1,0 +1,21 @@
+/* various special styles */
+
+#showcase {
+	position: relative;
+	min-height: 600px;
+	background-image: url(../img/showcase-me.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+  background-size: cover;
+	.showcase-overlay {
+	background:$showcase-overlay;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;}
+	.row {
+		width:40%;
+		margin-left:auto;
+	}
+}

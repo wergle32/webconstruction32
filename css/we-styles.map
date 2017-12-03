@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "../scss/we-styles.css",
+	"sources": [
+		"../scss/we-styles.scss",
+		"../scss/base/_base.scss",
+		"../scss/abstracts/_variables.scss",
+		"../scss/base/_headers.scss",
+		"../scss/base/_text.scss",
+		"../scss/base/_specials.scss"
+	],
+	"sourcesContent": [
+		"/* main scss */\r\n@import \"base/base\";\r\n@import \"base/headers\";\r\n@import \"base/text\";\r\n@import \"base/specials\";\r\n",
+		"// -----------------------------------------------------------------------------\r\n// This file contains very basic styles.\r\n// -----------------------------------------------------------------------------\r\n@import '..//abstracts/variables';\r\nbody {\r\n  font-family: $font-family-primary;\r\n  margin-top: 180px;\r\n}\r\n",
+		"// -----------------------------------------------------------------------------\r\n// This file contains all application-wide Sass variables.\r\n// -----------------------------------------------------------------------------\r\n/* font stacks */\r\n$font-family-primary: Lato, sans-serif;\r\n$font-family-secondary: Roboto, sans-serif;\r\n\r\n/* all colors */\r\n/* site colors */\r\n$color-primary: #2B4C6F; //main primary color//\r\n$color-primary-lite: #4A6A8A; //primary color lite//\r\n$color-primary-dark: #133253; //primary color dark//\r\n$color-secondary: #AA4139; //secondary color//\r\n$color-secondary-lite: #FFB0AA; //secondary lite\r\n$color-secondary-dark: #801D15; //secondary dark\r\n$color-secondary-2: #2B823A;\t// secondary color 2\r\n$color-secondary-lite-2: #82C38D; //secondary color 2 lite\r\n$color-secondary-dark-2: #10621E;//secondary color 2 dark\r\n$color-secondary-darker-2:#00410B;//secondary color 2 darker\r\n\r\n/* text colors */\r\n$color-text-primary: #656565;\r\n$color-text-primary-lite: #4a6a8a;\r\n$color-text-primary-dark: ;\r\n$color-text-secondary : ;\r\n$color-text-secondary-lite: ;\r\n$color-text-secondary-dark: ;\r\n\r\n/* headers colors */\r\n$color-headings:\t#242424;\r\n\r\n/* anchor link colors */\r\n$a-link-primary: ;\r\n$a-link-secondary: ;\r\n$a-visited-primary: ;\r\n$a-visited-secondary: ;\r\n$a-hover-primary: ;\r\n$a-hover-secondary: ;\r\n$a-active-primary: ;\r\n$a-active-secondary: ;\r\n\r\n/* specials */\r\n$showcase-overlay:rgba( 43, 76,111,.8);\r\n\r\n$section-header-color: #242424;\r\n\r\n \r\n",
+		"/* header tags */\r\n\r\nh1, h2, h3, h4, h5{\r\n\tfont-family: $font-family-primary;\r\n}\r\n\r\n.section-header {\r\n  color: $color-text-primary-lite;\r\n  text-transform: uppercase;\r\n  text-align: center;\r\n}\r\n\r\n.we-card-header {\r\n  color: $color-text-primary-lite;\r\n  text-transform: capitalize;\r\n  text-align: left;\r\n}\r\n",
+		"/* paragraph text */\r\n\r\np {\r\n  font-family: $font-family-secondary;\r\n  color: $color-text-primary;\r\n}\r\n",
+		"/* various special styles */\r\n\r\n#showcase {\r\n\tposition: relative;\r\n\tmin-height: 600px;\r\n\tbackground-image: url(../img/showcase-me.jpg);\r\n\tbackground-repeat: no-repeat;\r\n\tbackground-position: center;\r\n  background-size: cover;\r\n\t.showcase-overlay {\r\n\tbackground:$showcase-overlay;\r\n\tposition: absolute;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\twidth: 100%;\r\n\theight: 100%;}\r\n\t.row {\r\n\t\twidth:40%;\r\n\t\tmargin-left:auto;\r\n\t}\r\n}\r\n"
+	],
+	"mappings": "AAAA,eAAe;AEGf,iBAAiB;AAIjB,gBAAgB;AAChB,iBAAiB;AAYjB,iBAAiB;AAQjB,oBAAoB;AAGpB,wBAAwB;AAUxB,cAAc;;ADrCd,AAAA,IAAI,CAAC;EACH,WAAW,ECDS,IAAI,EAAE,UAAU;EDEpC,UAAU,EAAE,KAAM;CACnB;;AEPD,iBAAiB;;AAEjB,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,CAAA;EACjB,WAAW,EDCU,IAAI,EAAE,UAAU;CCArC;;;AAED,AAAA,eAAe,CAAC;EACd,KAAK,EDemB,OAAO;ECd/B,cAAc,EAAE,SAAU;EAC1B,UAAU,EAAE,MAAO;CACpB;;;AAED,AAAA,eAAe,CAAC;EACd,KAAK,EDSmB,OAAO;ECR/B,cAAc,EAAE,UAAW;EAC3B,UAAU,EAAE,IAAK;CAClB;;AChBD,oBAAoB;;AAEpB,AAAA,CAAC,CAAC;EACA,WAAW,EFEW,MAAM,EAAE,UAAU;EEDxC,KAAK,EFiBc,OAAO;CEhB3B;;ACLD,4BAA4B;;AAE5B,AAAA,SAAS,CAAC;EACT,QAAQ,EAAE,QAAS;EACnB,UAAU,EAAE,KAAM;EAClB,gBAAgB,EAA4B,2BAAC;EAC7C,iBAAiB,EAAE,SAAU;EAC7B,mBAAmB,EAAE,MAAO;EAC3B,eAAe,EAAE,KAAM;CAYxB;;;AAlBD,AAOC,SAPQ,CAOR,iBAAiB,CAAC;EAClB,UAAU,EHgCO,sBAAI;EG/BrB,QAAQ,EAAE,QAAS;EACnB,GAAG,EAAE,CAAE;EACP,IAAI,EAAE,CAAE;EACR,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;CAAE;;;AAbhB,AAcC,SAdQ,CAcR,IAAI,CAAC;EACJ,KAAK,EAAC,GAAI;EACV,WAAW,EAAC,IAAK;CACjB",
+	"names": []
+}

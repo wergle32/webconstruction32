@@ -1,0 +1,71 @@
+/* main scss */
+/* font stacks */
+/* all colors */
+/* site colors */
+/* text colors */
+/* headers colors */
+/* anchor link colors */
+/* specials */
+/* line 5, C:/xampp/htdocs/Projects/webconstruction32/scss/base/_base.scss */
+body {
+    font-family: Lato, sans-serif;
+    margin-top: 180px;
+}
+
+/* header tags */
+/* line 3, C:/xampp/htdocs/Projects/webconstruction32/scss/base/_headers.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Lato, sans-serif;
+}
+
+/* line 7, C:/xampp/htdocs/Projects/webconstruction32/scss/base/_headers.scss */
+.section-header {
+    color: #4a6a8a;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* line 13, C:/xampp/htdocs/Projects/webconstruction32/scss/base/_headers.scss */
+.we-card-header {
+    color: #4a6a8a;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+/* paragraph text */
+/* line 3, C:/xampp/htdocs/Projects/webconstruction32/scss/base/_text.scss */
+p {
+    font-family: Roboto, sans-serif;
+    color: #656565;
+}
+
+/* various special styles */
+/* line 3, C:/xampp/htdocs/Projects/webconstruction32/scss/base/_specials.scss */
+#showcase {
+    position: relative;
+    min-height: 600px;
+    background-image: url(../img/showcase-me.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* line 10, C:/xampp/htdocs/Projects/webconstruction32/scss/base/_specials.scss */
+#showcase .showcase-overlay {
+    background: rgba(43, 76, 111, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* line 17, C:/xampp/htdocs/Projects/webconstruction32/scss/base/_specials.scss */
+#showcase .row {
+    width: 40%;
+    margin-left: auto;
+}

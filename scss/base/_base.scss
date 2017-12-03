@@ -1,0 +1,8 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+@import '..//abstracts/variables';
+body {
+  font-family: $font-family-primary;
+  margin-top: 180px;
+}
